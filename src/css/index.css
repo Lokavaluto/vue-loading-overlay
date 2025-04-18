@@ -37,3 +37,7 @@
 .vl-overlay .vl-icon, .vl-parent {
   position: relative;
 }
+
+.vl-icon {
+ margin-top: 0.4rem !important;
+}

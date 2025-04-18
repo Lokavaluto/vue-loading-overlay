@@ -1,7 +1,7 @@
 <template>
-  <svg viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :stroke="color">
+  <svg viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :stroke="color">
     <g fill="none" fill-rule="evenodd">
-      <g transform="translate(1 1)" :stroke-width="strokeWidth">
+      <g transform="translate(2 2)" :stroke-width="strokeWidth">
         <circle stroke-opacity=".25" cx="18" cy="18" r="18"/>
         <path d="M36 18c0-9.94-8.06-18-18-18">
           <animateTransform

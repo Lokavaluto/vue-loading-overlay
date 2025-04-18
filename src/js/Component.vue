@@ -21,6 +21,7 @@
             :color="color"
             :width="width"
             :height="height"
+            :strokeWidth="strokeWidth"
           />
         </slot>
         <slot name="after"/>
@@ -76,7 +77,8 @@ export default defineComponent({
     loader: {
       type: String,
       default: 'spinner'
-    }
+    },
+    strokeWidth: Number
   },
   components: Loaders,
   emits: ['hide', 'update:active'],

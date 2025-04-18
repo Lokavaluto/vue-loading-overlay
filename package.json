@@ -34,6 +34,7 @@
     "dev": "webpack serve --node-env=development  --progress --hot --config=webpack.config.dev.js",
     "docs": "webpack --node-env=production  --config=webpack.config.dev.js --progress --mode=production",
     "build": "webpack --node-env=production  --progress --mode=production",
+    "buildw": "webpack --node-env=production  --progress --mode=production --watch",
     "prepublishOnly": "npm run test && npm run build"
   },
   "devDependencies": {
